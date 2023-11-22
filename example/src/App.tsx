@@ -27,8 +27,8 @@ const App: React.FunctionComponent = () => {
             </div>
             <AgoraUIKit
               rtcProps={{
-                appId: '<Your Agora App ID>',
-                channel: 'test',
+                appId: 'e1294bcb4ff745319219e341336645a7',
+                channel: 'testswitching',
                 token: null, // add your token if using app in secured mode
                 role: isHost ? 'host' : 'audience',
                 layout: isPinned ? layout.pin : layout.grid,
